@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  /* elevation ladder: page floor → section → card (all light now) */
+  --color-bg: #f7f2e8;        /* warm ivory — main page background */
+  --color-surface: #ffffff;   /* white cards */
+  --color-surface-2: #f0e6d4; /* deeper beige for chips inside cards */
+
+  /* dark navy — repurposed as primary text color + text-on-accent-button */
+  --color-ink: #10192b;
+
+  /* accents */
+  --color-forest: #a8432b;    /* rust — primary accent/links/underlines */
+  --color-rust: #86341f;      /* deep rust — marquee band */
+  --color-sage: #6b7280;      /* slate-blue — secondary tags/borders */
+  --color-clay: #dfa06e;      /* tan-orange — CTA buttons, highlights */
+  --color-emerald: #3d4552;   /* slate — deep secondary accent */
+  --color-emerald-light: #8b93a3;
+
+  /* text pair (dark-on-light) */
+  --color-cream: #10192b;     /* was "light text on dark" — now dark navy body/heading text */
+  --color-mute: #6b6558;      /* muted secondary text, warm gray */
+
+  /* text that sits ON a dark/colored band (marquee, Capabilities panel) */
+  --color-on-accent: #f7f2e8;
+
+  /* light "print inset" card background (hero photo card) */
+  --color-paper: #fffaf2;
+  --color-paper-shade: #f1e2c9;
+
+  /* rgb channel triples, for rgba() composites */
+  --color-bg-rgb: 247, 242, 232;
+  --color-ink-rgb: 16, 25, 43;
+  --color-forest-rgb: 168, 67, 43;
+  --color-sage-rgb: 107, 114, 128;
+  --color-clay-rgb: 223, 160, 110;
+  --color-cream-rgb: 16, 25, 43;
+  --color-emerald-rgb: 61, 69, 82;
+  --color-on-accent-rgb: 247, 242, 232;
+
+  /* fonts */
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
