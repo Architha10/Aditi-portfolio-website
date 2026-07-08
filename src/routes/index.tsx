@@ -250,7 +250,7 @@ function Hero() {
         <div className="mt-16 flex flex-wrap items-center gap-3 border-t pt-6" style={{ borderColor: `rgba(${FOREST_RGB},0.2)` }}>
           <MapPin size={12} style={{ color: FOREST }} />
           <span className="text-xs" style={{ fontFamily: MONO, color: MUTE, letterSpacing: "0.03em" }}>
-            33.4484° N, 112.0740° W — Phoenix · Hyderabad · Tempe
+            33.4484° N, 112.0740° W — Phoenix · Arizona  · Open to relocation
           </span>
         </div>
       </div>
@@ -452,8 +452,8 @@ function Experience() {
           {[
             { v: "4", l: "Professional Studios" },
             { v: "$30M", l: "Public works contributions" },
-            { v: "28 ac", l: "Infrastructure Master Planned" },
-            { v: "5+", l: "Concurrent project deliverables" },
+            { v: "28 ac", l: "Contributed to Master Planning" },
+            { v: "5+", l: "Coordinated projects" },
           ].map((s) => (
             <div key={s.l}>
               <div style={{ fontFamily: DISPLAY, fontSize: "2.2rem", color: CREAM, lineHeight: 1 }}>{s.v}</div>
